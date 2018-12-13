@@ -24,7 +24,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: istio/examples-helloworld-v1
+      - image: istio/examples-helloworld-v2
         imagePullPolicy: IfNotPresent
         name: helloworld
         ports:
